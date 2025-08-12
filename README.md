@@ -14,6 +14,7 @@ Project Goal :This project analyzes customer churn in a fictional Telco dataset 
 Dataset Overview
 
 The analysis is based on two main tables:
+
  • TelcoCustomerChurn: Based on the Telco Customer Churn dataset publicly available on Kaggle. This dataset contains customer demographics, services, tenure, contract type, and churn status.
  
  • SupportTickets: This is a fictional table created with ChatGPT for the purpose of illustrating multi-table SQL joins and issue-based churn analysis. It contains synthetic data on support issue types and resolution times.
@@ -27,7 +28,8 @@ Assumptions:
  • Some transformations (like churn rate calculations) are done directly using SQL aggregations.
 
 
- Tools Used
+ Tools Used:
+ 
  • SQL (SQLlite-like syntax)
  
  • CASE statements for conditional aggregation
@@ -38,6 +40,7 @@ Assumptions:
 
 
  Sample Insights
+ 
  • Customers without partners had slightly higher churn rates.
  
  • Senior citizens are more likely to churn.
