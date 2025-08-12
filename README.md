@@ -15,25 +15,35 @@ Dataset Overview
 
 The analysis is based on two main tables:
  • TelcoCustomerChurn: Based on the Telco Customer Churn dataset publicly available on Kaggle. This dataset contains customer demographics, services, tenure, contract type, and churn status.
+ 
  • SupportTickets: This is a fictional table created with ChatGPT for the purpose of illustrating multi-table SQL joins and issue-based churn analysis. It contains synthetic data on support issue types and resolution times.
 
 
 Assumptions:
  • This is a sample dataset used for learning purposes.
+ 
  • Column Churn is binary (Yes/No).
+ 
  • Some transformations (like churn rate calculations) are done directly using SQL aggregations.
 
 
  Tools Used
  • SQL (SQLlite-like syntax)
+ 
  • CASE statements for conditional aggregation
+ 
  • JOINs for combining customer and support data
+ 
  • Grouped aggregation (GROUP BY) for churn rate comparison
 
 
  Sample Insights
  • Customers without partners had slightly higher churn rates.
+ 
  • Senior citizens are more likely to churn.
+ 
  • Longer tenure is associated with lower churn.
+ 
  • No clear relationship found between resolution time and churn (requires statistical testing in Python).
+ 
  • Internet-related support issues are more common among churned customers.
