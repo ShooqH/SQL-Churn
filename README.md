@@ -35,7 +35,7 @@ Assumptions:
 
  Tools Used:
  
- • SQL (SQLlite-like syntax)
+ • SQL (SQLite-like syntax)
  
  • CASE statements for conditional aggregation
  
